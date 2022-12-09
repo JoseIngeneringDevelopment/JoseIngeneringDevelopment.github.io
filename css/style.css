@@ -100,3 +100,64 @@ h2 {
 }
 
 /*Fin Acerda de (About)*/
+
+/*Referencias testimonios*/
+.libros {
+  padding: 40px 40px 80px 40px;
+}
+
+.libros .carousel{
+  max-width: 800px;
+}
+
+.carousel-item{
+  height: 500px;
+}
+
+.carousel-item .container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.libros-imagen {
+  height: 120px;
+  width: 100px;
+  margin: 10px 10px 20px 10px;
+}
+
+.libros-texto {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.libros-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.libros-info p {
+  margin-bottom: 0px;
+}
+
+.libros-info .cliente {
+  font-size: 1.2rem;
+}
+
+.libros-info .cargo {
+  font-size: 0.9rem;
+  color: #656060;
+}
+
+/*Fin Referencias testimonios*/
+
+.accordion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
